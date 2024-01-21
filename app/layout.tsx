@@ -4,6 +4,7 @@ import "./globals.css";
 import { AuthContextProvider } from "./context/AuthContext";
 import StyledComponentsRegistry from "@/lib/styledComponentsRegistry";
 import Theme from "@/lib/Theme";
+import { ChakraRegistery } from "@/lib/ChakraRegistery";
 
 import GlobalNavBar from "@/components/organisms/GlobalNavBar";
 
@@ -25,8 +26,10 @@ export default function RootLayout({
         <AuthContextProvider>
           <StyledComponentsRegistry>
             <Theme>
-              <GlobalNavBar />
-              {children}
+              <ChakraRegistery>
+                <GlobalNavBar />
+                {children}
+              </ChakraRegistery>
             </Theme>
           </StyledComponentsRegistry>
         </AuthContextProvider>

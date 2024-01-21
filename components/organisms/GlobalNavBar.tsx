@@ -4,15 +4,23 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import styled from "styled-components";
 import AppContainer from "@/components/organisms/AppContainer";
+import { Button } from "@chakra-ui/react";
+import { Avatar } from "@chakra-ui/react";
 
 const GlobalNavBarWrapper = styled.div`
+  position: fixed;
+  top: 0px;
+  width: 100%;
   height: 60px;
   background-color: #ffffff;
   border-bottom: 1px solid grey;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
   .nav-container {
     height: 60px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     .site-logo {
       display: flex;
@@ -28,11 +36,17 @@ const GlobalNavBarWrapper = styled.div`
         font-size: 28px;
       }
     }
+
+    .logged-in-view {
+      .avatar-icon {
+        width: 42px;
+        height: 42px;
+      }
+    }
   }
 `;
 
 const GlobalNavBar = () => {
-  //@ts-ignore
   const { user, googleSignIn, logOut } = UserAuth();
   const [loading, setLoading] = useState(true);
 
@@ -68,7 +82,23 @@ const GlobalNavBar = () => {
             <img src="/images/site-logo.png" alt="test" />
             <p>Timely</p>
           </div>
-          <div className="auth-actions"></div>
+          {user ? (
+            <div className="logged-in-view">
+              <Avatar
+                name={user.name}
+                src={user.photoURL}
+                size="md"
+                className="avatar-icon"
+                onClick={handleSignOut}
+              />
+            </div>
+          ) : (
+            <div className="auth-actions">
+              <Button colorScheme="blue" size="md" onClick={handleSignIn}>
+                Log in{" "}
+              </Button>
+            </div>
+          )}
 
           {/* <ul className="flex">
             <li className="p-2 cursor-pointer">

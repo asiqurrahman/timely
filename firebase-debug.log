@@ -1,46 +1,51 @@
-[debug] [2023-12-27T07:00:30.826Z] ----------------------------------------------------------------------
-[debug] [2023-12-27T07:00:30.827Z] Command:       /usr/local/bin/node /Users/asiqur/Desktop/postcard/postcard/node_modules/.bin/firebase emulators:start --only firestore,auth,storage,functions
-[debug] [2023-12-27T07:00:30.827Z] CLI Version:   13.0.2
-[debug] [2023-12-27T07:00:30.828Z] Platform:      darwin
-[debug] [2023-12-27T07:00:30.828Z] Node Version:  v18.17.1
-[debug] [2023-12-27T07:00:30.828Z] Time:          Wed Dec 27 2023 02:00:30 GMT-0500 (Eastern Standard Time)
-[debug] [2023-12-27T07:00:30.829Z] ----------------------------------------------------------------------
+[debug] [2024-01-21T20:30:24.463Z] ----------------------------------------------------------------------
+[debug] [2024-01-21T20:30:24.464Z] Command:       /usr/local/bin/node /Users/asiqur/Desktop/postcard/postcard/node_modules/.bin/firebase emulators:start --only firestore,auth,storage,functions
+[debug] [2024-01-21T20:30:24.464Z] CLI Version:   13.0.2
+[debug] [2024-01-21T20:30:24.464Z] Platform:      darwin
+[debug] [2024-01-21T20:30:24.464Z] Node Version:  v18.17.1
+[debug] [2024-01-21T20:30:24.465Z] Time:          Sun Jan 21 2024 15:30:24 GMT-0500 (Eastern Standard Time)
+[debug] [2024-01-21T20:30:24.465Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-12-27T07:00:30.861Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-12-27T07:00:30.861Z] > authorizing via signed-in user (asiqurrahman13@gmail.com)
-[debug] [2023-12-27T07:00:30.892Z] java version "20.0.2" 2023-07-18
+[debug] [2024-01-21T20:30:24.497Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-21T20:30:24.497Z] > authorizing via signed-in user (asiqurrahman13@gmail.com)
+[debug] [2024-01-21T20:30:24.529Z] java version "20.0.2" 2023-07-18
 
-[debug] [2023-12-27T07:00:30.892Z] Java(TM) SE Runtime Environment (build 20.0.2+9-78)
+[debug] [2024-01-21T20:30:24.529Z] Java(TM) SE Runtime Environment (build 20.0.2+9-78)
 Java HotSpot(TM) 64-Bit Server VM (build 20.0.2+9-78, mixed mode, sharing)
 
-[debug] [2023-12-27T07:00:30.894Z] Parsed Java major version: 20
+[debug] [2024-01-21T20:30:24.531Z] Parsed Java major version: 20
 [info] i  emulators: Starting emulators: auth, functions, firestore, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, storage"}}
-[debug] [2023-12-27T07:00:31.442Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T07:00:31.442Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T07:00:31.442Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T07:00:31.442Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T07:00:31.442Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T07:00:31.442Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project postcard-bc985. This may result in unexpected behavior. 
-[debug] [2023-12-27T07:00:31.448Z] [hub] writing locator at /var/folders/l9/dsrh2_4s3kq6my8d9pv0hlx00000gn/T/hub-postcard-bc985.json
-[debug] [2023-12-27T07:00:31.604Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T07:00:31.604Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T07:00:31.604Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[debug] [2024-01-21T20:30:25.027Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-21T20:30:25.027Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-21T20:30:25.027Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-21T20:30:25.027Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-21T20:30:25.027Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] ⚠  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2024-01-21T20:30:25.027Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-01-21T20:30:25.032Z] [hub] writing locator at /var/folders/l9/dsrh2_4s3kq6my8d9pv0hlx00000gn/T/hub-postcard-bc985.json
+[debug] [2024-01-21T20:30:25.164Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-21T20:30:25.164Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-21T20:30:25.164Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
 [warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub\u001b[22m"}}
-[debug] [2023-12-27T07:00:31.605Z] defaultcredentials: writing to file /Users/asiqur/.config/firebase/asiqurrahman13_gmail_com_application_default_credentials.json
-[debug] [2023-12-27T07:00:31.606Z] Setting GAC to /Users/asiqur/.config/firebase/asiqurrahman13_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/asiqur/.config/firebase/asiqurrahman13_gmail_com_application_default_credentials.json"}}
-[debug] [2023-12-27T07:00:31.607Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/postcard-bc985/adminSdkConfig [none]
-[debug] [2023-12-27T07:00:32.571Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/postcard-bc985/adminSdkConfig 200
-[debug] [2023-12-27T07:00:32.571Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/postcard-bc985/adminSdkConfig {"projectId":"postcard-bc985","databaseURL":"https://postcard-bc985-default-rtdb.firebaseio.com","storageBucket":"postcard-bc985.appspot.com","locationId":"us-central"}
-[debug] [2023-12-27T07:00:32.581Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2023-12-27T07:00:32.581Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
-[debug] [2023-12-27T07:00:32.581Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/Users/asiqur/.cache/firebase/emulators/cloud-firestore-emulator-v1.18.2.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","postcard-bc985","--rules","/Users/asiqur/Desktop/postcard/postcard/firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/Users/asiqur/.cache/firebase/emulators/cloud-firestore-emulator-v1.18.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"postcard-bc985\",\"--rules\",\"/Users/asiqur/Desktop/postcard/postcard/firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[debug] [2024-01-21T20:30:25.165Z] defaultcredentials: writing to file /Users/asiqur/.config/firebase/asiqurrahman13_gmail_com_application_default_credentials.json
+[debug] [2024-01-21T20:30:25.166Z] Setting GAC to /Users/asiqur/.config/firebase/asiqurrahman13_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/asiqur/.config/firebase/asiqurrahman13_gmail_com_application_default_credentials.json"}}
+[debug] [2024-01-21T20:30:25.166Z] > refreshing access token with scopes: []
+[debug] [2024-01-21T20:30:25.167Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-21T20:30:25.167Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-21T20:30:25.287Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-01-21T20:30:25.287Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-21T20:30:25.299Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/postcard-bc985/adminSdkConfig [none]
+[debug] [2024-01-21T20:30:25.826Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/postcard-bc985/adminSdkConfig 200
+[debug] [2024-01-21T20:30:25.826Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/postcard-bc985/adminSdkConfig {"projectId":"postcard-bc985","databaseURL":"https://postcard-bc985-default-rtdb.firebaseio.com","storageBucket":"postcard-bc985.appspot.com","locationId":"us-central"}
+[debug] [2024-01-21T20:30:25.836Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-01-21T20:30:25.836Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-01-21T20:30:25.836Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/Users/asiqur/.cache/firebase/emulators/cloud-firestore-emulator-v1.18.2.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","postcard-bc985","--rules","/Users/asiqur/Desktop/postcard/postcard/firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/Users/asiqur/.cache/firebase/emulators/cloud-firestore-emulator-v1.18.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"postcard-bc985\",\"--rules\",\"/Users/asiqur/Desktop/postcard/postcard/firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
 [info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
-[debug] [2023-12-27T07:00:33.005Z] Dec 27, 2023 2:00:32 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+[debug] [2024-01-21T20:30:26.326Z] Jan 21, 2024 3:30:26 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
 INFO: Started WebSocket server on ws://127.0.0.1:9150
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 2:00:32 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9150\n"}}
-[debug] [2023-12-27T07:00:33.015Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
-[debug] [2023-12-27T07:00:33.015Z] 127.0.0.1:8080
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:30:26 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9150\n"}}
+[debug] [2024-01-21T20:30:26.337Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
+[debug] [2024-01-21T20:30:26.337Z] 127.0.0.1:8080
 If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
 
    export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
@@ -49,19 +54,20 @@ Dev App Server is now running.
 
  {"metadata":{"emulator":{"name":"firestore"},"message":"127.0.0.1:8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nDev App Server is now running.\n\n"}}
 [info] ✔  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
-[debug] [2023-12-27T07:00:35.699Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2023-12-27T07:00:36.026Z] Temp file directory for storage emulator: /var/folders/l9/dsrh2_4s3kq6my8d9pv0hlx00000gn/T/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /var/folders/l9/dsrh2_4s3kq6my8d9pv0hlx00000gn/T/firebase/storage/blobs"}}
-[debug] [2023-12-27T07:00:36.029Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2023-12-27T07:00:36.030Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2023-12-27T07:00:36.030Z] Starting Emulator UI with command {"binary":"node","args":["/Users/asiqur/.cache/firebase/emulators/ui-v1.11.7/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/asiqur/.cache/firebase/emulators/ui-v1.11.7/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[debug] [2024-01-21T20:30:28.972Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-01-21T20:30:29.391Z] Temp file directory for storage emulator: /var/folders/l9/dsrh2_4s3kq6my8d9pv0hlx00000gn/T/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /var/folders/l9/dsrh2_4s3kq6my8d9pv0hlx00000gn/T/firebase/storage/blobs"}}
+[debug] [2024-01-21T20:30:29.394Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-01-21T20:30:29.394Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-01-21T20:30:29.394Z] Starting Emulator UI with command {"binary":"node","args":["/Users/asiqur/.cache/firebase/emulators/ui-v1.11.7/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/asiqur/.cache/firebase/emulators/ui-v1.11.7/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2023-12-27T07:00:36.084Z] Web / API server started at 127.0.0.1:4000
- {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
-[debug] [2023-12-27T07:00:36.084Z] Web / API server started at ::1:4000
- {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[debug] [2024-01-21T20:30:29.452Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2024-01-21T20:30:29.452Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
 [info] i  functions: Watching "/Users/asiqur/Desktop/postcard/postcard/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/asiqur/Desktop/postcard/postcard/functions\" for Cloud Functions..."}}
-[debug] [2023-12-27T07:00:36.289Z] Validating nodejs source
-[debug] [2023-12-27T07:00:36.597Z] > [functions] package.json contents: {
+[debug] [2024-01-21T20:30:29.657Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2024-01-21T20:30:29.999Z] > [functions] package.json contents: {
   "name": "functions",
   "scripts": {
     "lint": "eslint --ext .js,.ts .",
@@ -98,1208 +104,106 @@ Dev App Server is now running.
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
 │ ✔  All emulators ready! It is now safe to connect your app. │
-│ i  View Emulator UI at http://127.0.0.1:4000/               │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
 └─────────────────────────────────────────────────────────────┘
 
 ┌────────────────┬────────────────┬─────────────────────────────────┐
 │ Emulator       │ Host:Port      │ View in Emulator UI             │
 ├────────────────┼────────────────┼─────────────────────────────────┤
-│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4001/auth      │
 ├────────────────┼────────────────┼─────────────────────────────────┤
-│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
 ├────────────────┼────────────────┼─────────────────────────────────┤
-│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4001/firestore │
 ├────────────────┼────────────────┼─────────────────────────────────┤
-│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage   │
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4001/storage   │
 └────────────────┴────────────────┴─────────────────────────────────┘
   Emulator Hub running at 127.0.0.1:4400
   Other reserved ports: 4500, 9150
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[debug] [2023-12-27T07:00:50.487Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast [none]
-[debug] [2023-12-27T07:00:50.487Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast {"eventId":"7a5f7ec7-f97d-49fa-a988-0f5a3020d33a","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/postcard-bc985","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2023-12-27T07:00:50.486Z","data":{"uid":"Huo1yI7HjiSsfc1XGxis7AS79QCc","email":"orange.chicken.171@example.com","emailVerified":true,"displayName":"Orange Chicken","metadata":{"creationTime":"2023-12-27T07:00:50.485Z","lastSignInTime":"2023-12-27T07:00:50.485Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"9907679676593047098762897891967807361663","federatedId":"9907679676593047098762897891967807361663","displayName":"Orange Chicken","email":"orange.chicken.171@example.com","screenName":"chicken_orange"}]}}
-[debug] [2023-12-27T07:00:50.500Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast 200
-[debug] [2023-12-27T07:00:50.500Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast {"status":"multicast_acknowledged"}
-[debug] [2023-12-27T07:00:50.535Z] Dec 27, 2023 2:00:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+[debug] [2024-01-21T20:31:51.415Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast [none]
+[debug] [2024-01-21T20:31:51.415Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast {"eventId":"7ad1271a-0563-4512-b84e-238924f75074","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/postcard-bc985","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2024-01-21T20:31:51.414Z","data":{"uid":"4GZQM7oYZHEfgR9RYId8xjObDgT7","email":"mountain.panda.948@example.com","emailVerified":true,"displayName":"Mountain Panda","metadata":{"creationTime":"2024-01-21T20:31:51.413Z","lastSignInTime":"2024-01-21T20:31:51.413Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"4654925073249880386269048467455877360742","federatedId":"4654925073249880386269048467455877360742","displayName":"Mountain Panda","email":"mountain.panda.948@example.com","screenName":"panda_mountain"}]}}
+[debug] [2024-01-21T20:31:51.428Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast 200
+[debug] [2024-01-21T20:31:51.428Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-01-21T20:31:51.464Z] Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 2:00:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2023-12-27T07:00:50.781Z] Dec 27, 2023 2:00:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:51.464Z] Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 2:00:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2023-12-27T07:00:50.789Z] Dec 27, 2023 2:00:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:51.725Z] Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 2:00:50 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2023-12-27T17:38:33.743Z] Received signal SIGHUP 1
-[info]  
-[info] i  emulators: Received SIGHUP for the first time. Starting a clean shutdown. 
-[info] i  emulators: Please wait for a clean shutdown or send the SIGHUP signal again to stop right now. 
-[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
-[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
-[debug] [2023-12-27T17:38:33.751Z] Ignoring signal SIGHUP due to short delay of 8ms
-[warn] ⚠  Emulator UI has exited upon receiving signal: SIGINT 
-[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
-[info] i  firestore: Stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Stopping Firestore Emulator"}}
-[debug] [2023-12-27T17:38:33.759Z] *** shutting down gRPC server since JVM is shutting down
- {"metadata":{"emulator":{"name":"firestore"},"message":"*** shutting down gRPC server since JVM is shutting down\n"}}
-[debug] [2023-12-27T17:38:33.764Z] *** server shut down
- {"metadata":{"emulator":{"name":"firestore"},"message":"*** server shut down\n"}}
-[info] i  auth: Stopping Authentication Emulator {"metadata":{"emulator":{"name":"auth"},"message":"Stopping Authentication Emulator"}}
-[debug] [2023-12-27T17:38:34.156Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.157Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.157Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.157Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.158Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.158Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.158Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.159Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.159Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.159Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.160Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.160Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.160Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.160Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.161Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.161Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.161Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.161Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.162Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.162Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.163Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.163Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.163Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.164Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.164Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.164Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.164Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.164Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.165Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.165Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.165Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.165Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.166Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.166Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.166Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.166Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.167Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.167Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.167Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.167Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.168Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.168Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.168Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.168Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.169Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.169Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.169Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.169Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.169Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.170Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.170Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.170Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.170Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.170Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.170Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.171Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.171Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.171Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.172Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.172Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.172Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.172Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.172Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.172Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[info] i  storage: Stopping Storage Emulator {"metadata":{"emulator":{"name":"storage"},"message":"Stopping Storage Emulator"}}
-[debug] [2023-12-27T17:38:34.175Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.175Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.175Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.176Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.176Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.176Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.176Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.177Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.177Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.177Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.177Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.177Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.177Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-12-27T17:38:34.178Z] Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
-    at writeGeneric (node:internal/stream_base_commons:151:3)
-    at Socket._writeGeneric (node:net:931:11)
-    at Socket._write (node:net:943:8)
-    at writeOrBuffer (node:internal/streams/writable:392:12)
-    at _write (node:internal/streams/writable:333:10)
-    at Writable.write (node:internal/streams/writable:337:10)
-    at Console.log (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston/lib/winston/transports/console.js:79:23)
-    at Console._write (/Users/asiqur/Desktop/postcard/postcard/node_modules/winston-transport/index.js:103:17)
-    at doWrite (/Users/asiqur/Desktop/postcard/postcard/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-[debug] [2023-12-27T22:45:13.583Z] ----------------------------------------------------------------------
-[debug] [2023-12-27T22:45:13.583Z] Command:       /usr/local/bin/node /Users/asiqur/Desktop/postcard/postcard/node_modules/.bin/firebase emulators:start --only firestore,auth,storage,functions
-[debug] [2023-12-27T22:45:13.584Z] CLI Version:   13.0.2
-[debug] [2023-12-27T22:45:13.584Z] Platform:      darwin
-[debug] [2023-12-27T22:45:13.584Z] Node Version:  v18.17.1
-[debug] [2023-12-27T22:45:13.585Z] Time:          Wed Dec 27 2023 17:45:13 GMT-0500 (Eastern Standard Time)
-[debug] [2023-12-27T22:45:13.585Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2023-12-27T22:45:13.586Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
-[debug] [2023-12-27T22:45:13.635Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-12-27T22:45:13.635Z] > authorizing via signed-in user (asiqurrahman13@gmail.com)
-[debug] [2023-12-27T22:45:13.704Z] java version "20.0.2" 2023-07-18
-
-[debug] [2023-12-27T22:45:13.704Z] Java(TM) SE Runtime Environment (build 20.0.2+9-78)
-Java HotSpot(TM) 64-Bit Server VM (build 20.0.2+9-78, mixed mode, sharing)
-
-[debug] [2023-12-27T22:45:13.706Z] Parsed Java major version: 20
-[info] i  emulators: Starting emulators: auth, functions, firestore, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, storage"}}
-[debug] [2023-12-27T22:45:14.178Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T22:45:14.178Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T22:45:14.178Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T22:45:14.178Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T22:45:14.178Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T22:45:14.178Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2023-12-27T22:45:14.184Z] [hub] writing locator at /var/folders/l9/dsrh2_4s3kq6my8d9pv0hlx00000gn/T/hub-postcard-bc985.json
-[debug] [2023-12-27T22:45:14.316Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T22:45:14.316Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-12-27T22:45:14.316Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
-[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub\u001b[22m"}}
-[debug] [2023-12-27T22:45:14.316Z] defaultcredentials: writing to file /Users/asiqur/.config/firebase/asiqurrahman13_gmail_com_application_default_credentials.json
-[debug] [2023-12-27T22:45:14.318Z] Setting GAC to /Users/asiqur/.config/firebase/asiqurrahman13_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/asiqur/.config/firebase/asiqurrahman13_gmail_com_application_default_credentials.json"}}
-[debug] [2023-12-27T22:45:14.318Z] > refreshing access token with scopes: []
-[debug] [2023-12-27T22:45:14.319Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
-[debug] [2023-12-27T22:45:14.319Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2023-12-27T22:45:14.391Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
-[debug] [2023-12-27T22:45:14.391Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
-[debug] [2023-12-27T22:45:14.846Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
-[debug] [2023-12-27T22:45:14.846Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2023-12-27T22:45:14.858Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/postcard-bc985/adminSdkConfig [none]
-[debug] [2023-12-27T22:45:16.065Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/postcard-bc985/adminSdkConfig 200
-[debug] [2023-12-27T22:45:16.065Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/postcard-bc985/adminSdkConfig {"projectId":"postcard-bc985","databaseURL":"https://postcard-bc985-default-rtdb.firebaseio.com","storageBucket":"postcard-bc985.appspot.com","locationId":"us-central"}
-[debug] [2023-12-27T22:45:16.076Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2023-12-27T22:45:16.076Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
-[debug] [2023-12-27T22:45:16.076Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/Users/asiqur/.cache/firebase/emulators/cloud-firestore-emulator-v1.18.2.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","postcard-bc985","--rules","/Users/asiqur/Desktop/postcard/postcard/firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/Users/asiqur/.cache/firebase/emulators/cloud-firestore-emulator-v1.18.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"postcard-bc985\",\"--rules\",\"/Users/asiqur/Desktop/postcard/postcard/firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
-[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
-[debug] [2023-12-27T22:45:16.571Z] Dec 27, 2023 5:45:16 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
-INFO: Started WebSocket server on ws://127.0.0.1:9150
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 5:45:16 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9150\n"}}
-[debug] [2023-12-27T22:45:16.581Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
-[debug] [2023-12-27T22:45:16.582Z] 127.0.0.1:8080
-If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
-
-   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
-
-Dev App Server is now running.
-
- {"metadata":{"emulator":{"name":"firestore"},"message":"127.0.0.1:8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nDev App Server is now running.\n\n"}}
-[info] ✔  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
-[debug] [2023-12-27T22:45:19.246Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2023-12-27T22:45:19.589Z] Temp file directory for storage emulator: /var/folders/l9/dsrh2_4s3kq6my8d9pv0hlx00000gn/T/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /var/folders/l9/dsrh2_4s3kq6my8d9pv0hlx00000gn/T/firebase/storage/blobs"}}
-[debug] [2023-12-27T22:45:19.592Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2023-12-27T22:45:19.592Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2023-12-27T22:45:19.592Z] Starting Emulator UI with command {"binary":"node","args":["/Users/asiqur/.cache/firebase/emulators/ui-v1.11.7/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/asiqur/.cache/firebase/emulators/ui-v1.11.7/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
-[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2023-12-27T22:45:19.647Z] Web / API server started at 127.0.0.1:4000
- {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
-[debug] [2023-12-27T22:45:19.647Z] Web / API server started at ::1:4000
- {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
-[info] i  functions: Watching "/Users/asiqur/Desktop/postcard/postcard/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/asiqur/Desktop/postcard/postcard/functions\" for Cloud Functions..."}}
-[debug] [2023-12-27T22:45:19.853Z] Validating nodejs source
-[debug] [2023-12-27T22:45:20.537Z] > [functions] package.json contents: {
-  "name": "functions",
-  "scripts": {
-    "lint": "eslint --ext .js,.ts .",
-    "build": "tsc",
-    "build:watch": "tsc --watch",
-    "serve": "npm run build && firebase emulators:start --only functions",
-    "shell": "npm run build && firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "engines": {
-    "node": "18"
-  },
-  "main": "lib/index.js",
-  "dependencies": {
-    "firebase-admin": "^11.8.0",
-    "firebase-functions": "^4.3.1"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.12.0",
-    "@typescript-eslint/parser": "^5.12.0",
-    "eslint": "^8.9.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-plugin-import": "^2.25.4",
-    "firebase-functions-test": "^3.1.0",
-    "typescript": "^4.9.0"
-  },
-  "private": true
-}
-[error] ⬢  functions: Failed to load function definition from source: FirebaseError: There was an error reading functions/package.json:
-
- functions/lib/index.js does not exist, can't deploy Cloud Functions {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: There was an error reading functions/package.json:\n\n functions/lib/index.js does not exist, can't deploy Cloud Functions"}}
-[info] 
-┌─────────────────────────────────────────────────────────────┐
-│ ✔  All emulators ready! It is now safe to connect your app. │
-│ i  View Emulator UI at http://127.0.0.1:4000/               │
-└─────────────────────────────────────────────────────────────┘
-
-┌────────────────┬────────────────┬─────────────────────────────────┐
-│ Emulator       │ Host:Port      │ View in Emulator UI             │
-├────────────────┼────────────────┼─────────────────────────────────┤
-│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
-├────────────────┼────────────────┼─────────────────────────────────┤
-│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
-├────────────────┼────────────────┼─────────────────────────────────┤
-│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
-├────────────────┼────────────────┼─────────────────────────────────┤
-│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage   │
-└────────────────┴────────────────┴─────────────────────────────────┘
-  Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500, 9150
-
-Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
- 
-[debug] [2023-12-27T23:55:17.113Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast [none]
-[debug] [2023-12-27T23:55:17.114Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast {"eventId":"4c5dfcd9-ff6d-4927-ae38-a4543f8325ea","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/postcard-bc985","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2023-12-27T23:55:17.110Z","data":{"uid":"hGABLMg14m9rtvGfQxxiACmLmmn6","email":"peach.orange.61@example.com","emailVerified":true,"displayName":"Peach Orange","metadata":{"creationTime":"2023-12-27T23:55:17.107Z","lastSignInTime":"2023-12-27T23:55:17.107Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"5898529719910085683270761937449333456505","federatedId":"5898529719910085683270761937449333456505","displayName":"Peach Orange","email":"peach.orange.61@example.com","screenName":"orange_peach"}]}}
-[debug] [2023-12-27T23:55:17.135Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast 200
-[debug] [2023-12-27T23:55:17.135Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/postcard-bc985/trigger_multicast {"status":"multicast_acknowledged"}
-[debug] [2023-12-27T23:55:17.185Z] Dec 27, 2023 6:55:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:51.736Z] Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 6:55:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2023-12-27T23:55:17.451Z] Dec 27, 2023 6:55:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:51.797Z] Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 6:55:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2023-12-27T23:55:17.459Z] Dec 27, 2023 6:55:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:51.810Z] Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 6:55:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2023-12-27T23:55:53.299Z] Dec 27, 2023 6:55:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:54.285Z] Jan 21, 2024 3:31:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 6:55:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2023-12-27T23:55:53.309Z] Dec 27, 2023 6:55:53 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:54.294Z] Jan 21, 2024 3:31:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:54.301Z] Jan 21, 2024 3:31:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:55.139Z] Jan 21, 2024 3:31:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:55.148Z] Jan 21, 2024 3:31:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:55.153Z] Jan 21, 2024 3:31:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:56.008Z] Jan 21, 2024 3:31:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:56.018Z] Jan 21, 2024 3:31:56 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose
 INFO: channel closed
- {"metadata":{"emulator":{"name":"firestore"},"message":"Dec 27, 2023 6:55:53 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose\nINFO: channel closed\n"}}
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:56 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose\nINFO: channel closed\n"}}
+[debug] [2024-01-21T20:31:57.986Z] Jan 21, 2024 3:31:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:58.005Z] Jan 21, 2024 3:31:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:31:58.014Z] Jan 21, 2024 3:31:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:31:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:32:10.375Z] Jan 21, 2024 3:32:10 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:32:10 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2024-01-21T20:32:11.305Z] Jan 21, 2024 3:32:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:32:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:32:11.381Z] Jan 21, 2024 3:32:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:32:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:32:11.402Z] Multiple projectIds are not recommended in single project mode. Requested project ID codedex-io, but the emulator is configured for postcard-bc985. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Multiple projectIds are not recommended in single project mode. Requested project ID codedex-io, but the emulator is configured for postcard-bc985. To opt-out of single project mode add/set the '\"singleProjectMode\": false' property in the firebase.json emulators config.\n"}}
+[debug] [2024-01-21T20:32:17.531Z] Jan 21, 2024 3:32:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:32:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:32:17.540Z] Jan 21, 2024 3:32:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:32:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:32:17.547Z] Jan 21, 2024 3:32:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:32:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:32:58.036Z] Jan 21, 2024 3:32:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:32:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:32:58.159Z] Jan 21, 2024 3:32:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:32:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-01-21T20:32:58.165Z] Jan 21, 2024 3:32:58 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose
+INFO: channel closed
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 21, 2024 3:32:58 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose\nINFO: channel closed\n"}}

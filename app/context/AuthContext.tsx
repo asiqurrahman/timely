@@ -12,12 +12,25 @@ import {
 
 import { firestore } from "../firebase";
 
-import { setDoc, doc, serverTimestamp } from "firebase/firestore";
+import { setDoc, doc, serverTimestamp, getDoc } from "firebase/firestore";
 
-const AuthContext = createContext("");
+interface AuthContextType {
+  user: Record<string, any> | null;
+  googleSignIn: () => void;
+  logOut: () => void;
+}
 
-export const AuthContextProvider = ({ children }: any) => {
+const AuthContext = createContext<AuthContextType>({
+  user: null,
+  googleSignIn: () => {},
+  logOut: () => {},
+});
+
+export const AuthContextProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   const [user, setUser] = useState(null);
+  const [userData, setUserData] = useState<Record<string, any> | null>(null);
 
   const googleSignIn = async () => {
     const provider = new GoogleAuthProvider();
@@ -28,15 +41,17 @@ export const AuthContextProvider = ({ children }: any) => {
       const uid = userCredential.user.uid;
 
       const userData = {
-        displayName: userCredential.user.displayName,
+        uid: uid,
+        name: userCredential.user.displayName,
         email: userCredential.user.email,
+        photoURL: userCredential.user.photoURL,
         createdAt: serverTimestamp(),
       };
 
       const userCollection = doc(firestore, "users", uid);
 
       await setDoc(userCollection, {
-        userData,
+        ...userData,
       });
     }
   };
@@ -46,15 +61,39 @@ export const AuthContextProvider = ({ children }: any) => {
   };
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(userAuth, (currentUser: any) => {
+    const subscribe = onAuthStateChanged(userAuth, (currentUser: any) => {
+      console.log({ currentUser });
+      async function getUserData() {
+        if (currentUser) {
+          const uid = currentUser.uid;
+
+          const userDocRef = doc(firestore, "users", uid);
+
+          try {
+            const userDocSnapshot = await getDoc(userDocRef);
+
+            if (userDocSnapshot.exists()) {
+              setUserData(userDocSnapshot.data());
+            } else {
+              console.log("User document does not exist.");
+            }
+          } catch (error) {
+            console.error("Error fetching user document:", error);
+          }
+
+          console.log({ user });
+        } else {
+          setUserData(null);
+        }
+      }
       setUser(currentUser);
+      getUserData();
     });
-    return () => unsubscribe();
+    return () => subscribe();
   }, [user]);
 
   return (
-    //@ts-ignore
-    <AuthContext.Provider value={{ user, googleSignIn, logOut }}>
+    <AuthContext.Provider value={{ user: userData, googleSignIn, logOut }}>
       {children}
     </AuthContext.Provider>
   );
